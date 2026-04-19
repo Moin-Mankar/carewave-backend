@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarewaveBackendApplication {
+public class application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarewaveBackendApplication.class, args);
+		SpringApplication.run(application.class, args);
 	}
 
 }
