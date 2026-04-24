@@ -3,10 +3,14 @@ package com.CareWave.carewave_backend.entity;
 import com.CareWave.carewave_backend.enums.EmergencyStatus;
 import com.CareWave.carewave_backend.enums.EmergencyType;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@Getter
+@Setter
 @Entity
 public class EmergencyEvent {
 
